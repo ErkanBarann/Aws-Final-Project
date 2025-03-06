@@ -7,7 +7,7 @@ def lambda_handler(event, context):
     dynamodb = boto3.resource('dynamodb')
     
     # DynamoDB tablosunun adı
-    table_name = 'change me'
+    table_name = 'final-aws'
     table = dynamodb.Table(table_name)
     
     # Olay verilerinden bucket ve dosya adı bilgilerini al
