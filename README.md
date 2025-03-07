@@ -2,9 +2,7 @@
 
 ## 📖 Project Description
 
-This project aims to build a **scalable, secure, and highly available** blog web page infrastructure on **AWS**. The architecture includes **EC2 instances** hosted in private and public subnets, a **load balancer (ALB)**, **NAT Gateway**, **S3**, **CloudFront**, **Route 53**, and other AWS services. **MySQL** is used as the database, and the data is stored in a **private subnet** within the VPC.
-
----
+This project is designed to create a scalable, secure, and highly available blog web page infrastructure on AWS. It integrates multiple AWS services to ensure high performance, resilience, and failover capabilities. The architecture leverages EC2 instances, load balancing (ALB), auto-scaling, S3 for media storage, CloudFront for CDN, DynamoDB for user data, and MySQL for structured data in a private subnet. Additionally, a failover scenario is implemented to enhance reliability.
 
 ## 🏗 Architectural Components
 
